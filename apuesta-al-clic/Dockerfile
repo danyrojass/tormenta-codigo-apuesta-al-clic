@@ -1,45 +1,20 @@
-# Development stage
-FROM node:16 as development
+# Utiliza una imagen base de Node.js 18
+FROM node:18
 
 # Establece el directorio de trabajo dentro del contenedor
-WORKDIR /usr/src/app
+WORKDIR /app
 
-# Copia el archivo package.json y package-lock.json (o yarn.lock si estás usando Yarn)
-COPY package*.json ./
+# Copia los archivos del proyecto (package.json y yarn.lock)
+COPY package.json yarn.lock ./
 
-# Instala las dependencias de desarrollo
-RUN npm install
+# Instala las dependencias utilizando Yarn
+RUN yarn install
 
-# Copia los archivos de configuración
-COPY tsconfig.json tsconfig.node.json ./
+# Copia el resto de los archivos del proyecto al directorio de trabajo en el contenedor
+COPY . .
 
-# Copia el código fuente de la aplicación
-COPY ./src ./src
+# Ejecuta el comando de construcción (yarn build)
+RUN yarn build
 
-# Comando de inicio para el entorno de desarrollo
-CMD [ "npm", "run", "dev" ]
-
-# Builder stage
-FROM development as builder
-
-# Build the app with devDependencies still installed from the "development" stage
-RUN npm run build
-
-# Clear dependencies and reinstall for production (no devDependencies)
-RUN rm -rf node_modules
-RUN npm ci --only=production
-
-# Production stage
-FROM alpine:latest as production
-
-# Instala Node.js y certificados CA
-RUN apk --no-cache add nodejs ca-certificates
-
-# Establece el directorio de trabajo en el contenedor
-WORKDIR /root/
-
-# Copia los archivos de la etapa de compilación (builder)
-COPY --from=builder /usr/src/app ./
-
-# Comando de inicio para el entorno de producción
-CMD [ "node", "dist/server/server.js" ]
+# Comando de inicio para la aplicación (yarn start)
+CMD ["yarn", "start"]
