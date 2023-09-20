@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="183aec48-4e3a-4937-8096-c28f498903b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/apuesta-al-clic/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/apuesta-al-clic/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apuesta-al-clic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apuesta-al-clic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apuesta-al-clic/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apuesta-al-clic/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apuesta-al-clic/src/server/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apuesta-al-clic/src/server/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apuesta-al-clic/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apuesta-al-clic/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2VbAb6ByMVq1DeOJwLtfWTaeLID" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "18.17.1",
+    "javascript.nodejs.core.library.typings.version": "18.17.1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\Users\\danyr\\Dev\\Git\\webreactiva\\tormenta-codigo-apuesta-al-clic\\apuesta-al-clic\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danyr\Dev\Git\webreactiva\tormenta-codigo-apuesta-al-clic\apuesta-al-clic" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="183aec48-4e3a-4937-8096-c28f498903b2" name="Changes" comment="" />
+      <created>1695094476598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695094476598</updated>
+      <workItem from="1695094484039" duration="2396000" />
+      <workItem from="1695125413991" duration="4452000" />
+      <workItem from="1695174883699" duration="223000" />
+      <workItem from="1695215003477" duration="13504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
