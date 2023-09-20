@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.red-button {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave */
+}
+
+.red-button:hover {
+  background-color: darkred;
+  color: white;
+  transform: scale(1.5); /* Escala el botón */
+}
+
+/* Estilo para el contador */
+.counter {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+/* Estilo para el botón de apuesta */
+.bet-button {
+  background-color: #4CAF50;
+  margin-right: 70px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.bet-button:hover {
+  background-color: darkgreen;
+}
+
+.button-container {
+  display: flex;
+}
+
+.reset-button {
+  background-color: lightblue;
+  margin-left: 70px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: lightskyblue;
+}
+
+.back-button {
+  background-color: floralwhite;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: cornsilk;
+}
